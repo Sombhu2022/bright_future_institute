@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Bright Future Institute - Quality Education for Classes 5-12, JEE, JENPAH, NEET-UG. Advanced AC classrooms with expert guidance."
+    />
+    <meta
+      name="keywords"
+      content="Bright Future Institute, Education, Classes 5-12, JEE, NEET-UG, JENPAH, AC classrooms, Soumik Ghosh"
+    />
+    <title>Bright Future Institute</title>
+    <link rel="shortcut icon" href="./images/logo.jpg" type="image/jpg">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body
+    class="bg-gradient-to-r from-blue-100 via-purple-100 to-pink-100 text-gray-800"
+  >
+    <!-- Header -->
+    <header class="bg-blue-600 text-white shadow-lg">
+      <div class="container mx-auto p-4 flex justify-between items-center">
+        <!-- Logo and Institute Name -->
+        <div class="flex items-center space-x-2">
+          <img
+            src="./images/logo.jpg"
+            alt="Bright Future Institute Logo"
+            class="w-10 h-10 border rounded-full"
+          />
+          <div class="text-2xl font-bold">Bright Future Institute</div>
+        </div>
+
+        <!-- Hamburger Icon for Mobile -->
+        <div class="md:hidden flex items-center">
+          <button id="menu-btn" class="focus:outline-none">
+            <svg
+              class="w-8 h-8"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              ></path>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Navigation Links -->
+        <nav id="menu" class="hidden md:flex space-x-4">
+          <a href="#" class="hover:text-yellow-300">Home</a>
+          <a href="#about" class="hover:text-yellow-300">About Us</a>
+          <a href="#contact" class="hover:text-yellow-300">Contact Us</a>
+          <a href="#services" class="hover:text-yellow-300">Services</a>
+        </nav>
+      </div>
+
+      <!-- Mobile Menu (Hidden by default) -->
+      <div
+        id="mobile-menu"
+        class="md:hidden absolute top-16 left-0 w-full bg-blue-600 text-white shadow-lg hidden"
+      >
+        <div class="flex flex-col items-center py-4">
+          <a href="#" class="py-2 hover:text-yellow-300">Home</a>
+          <a href="#about" class="py-2 hover:text-yellow-300">About Us</a>
+          <a href="#contact" class="py-2 hover:text-yellow-300">Contact Us</a>
+          <a href="#services" class="py-2 hover:text-yellow-300">Services</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="text-center py-20 bg-gradient-to-r from-yellow-200 via-green-200 to-blue-200"
+    >
+      <h1 class="text-4xl font-bold text-blue-800">
+        Welcome to Bright Future Institute
+      </h1>
+      <p class="text-xl mt-4 text-gray-700">Where Education Meets Excellence</p>
+      <p class="text-xl mt-4 text-gray-700"><b>"Be a Man , Make a Man"</b></p>
+
+      <div class="mt-6">
+        <a
+          href="#contact"
+          class="bg-blue-600 text-white px-6 py-3 rounded-full shadow hover:bg-blue-700"
+          >Contact Us Today</a
+        >
+      </div>
+    </section>
+
+    <!-- Our Agenda -->
+    <section class="container mx-auto py-16">
+      <div class="text-center mb-8">
+        <h2 class="text-3xl font-bold text-blue-800">Our Agenda</h2>
+        <p class="mt-4 text-lg text-gray-600">
+          At Bright Future Institute, we are committed to nurturing students
+          into responsible, knowledgeable, and successful individuals. Our goal
+          is to provide comprehensive education and personalized guidance,
+          helping students achieve academic excellence and personal growth. Our
+          motto, <strong>"Be a Man, Make a Man,"</strong> reflects our
+          dedication to shaping not just educated individuals but leaders and
+          role models for tomorrow.
+        </p>
+      </div>
+    </section>
+
+    <!-- About Us -->
+    <section
+      id="about"
+      class="w-full py-16 border border-red-300 bg-gradient-to-r from-green-400 via-blue-400 to-purple-400 text-gray-600"
+    >
+      <div class="max-w-screen-xl mx-auto text-center mb-8 px-4">
+        <h2 class="text-3xl font-bold text-white">About Us</h2>
+        <p class="mt-4 text-lg text-white">
+          Bright Future Institute provides quality education from Classes 5 to
+          12, as well as preparation for JEE, NEET-UG, and JENPAH. Our advanced
+          classrooms are equipped with AC for a comfortable learning
+          environment.
+        </p>
+      </div>
+      <div class="mt-6 w-full flex justify-center">
+        <a
+          href="./images/details.jpg"
+          download="details.jpg"
+          class="bg-gray-600 text-white px-6 py-3 rounded-full shadow hover:bg-blue-700"
+          >More Details</a
+        >
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-white py-16">
+      <div class="container mx-auto">
+        <div class="text-center mb-8">
+          <h2 class="text-3xl font-bold text-blue-800">Our Services</h2>
+        </div>
+        <div class="flex flex-wrap justify-center gap-8">
+          <!-- Mathematics -->
+          <div class="bg-blue-100 p-6 rounded-lg shadow-lg max-w-sm">
+            <div class="flex justify-center mb-3 mt-2">
+              <i class="fas fa-calculator text-blue-600 text-5xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-blue-600 mb-2">Mathematics</h3>
+            <p class="text-gray-700">
+              Expert coaching for Mathematics from Class 5 to 12, and
+              competitive exams.
+            </p>
+          </div>
+          <!-- Physics -->
+          <div class="bg-green-100 p-6 rounded-lg shadow-lg max-w-sm">
+            <div class="flex justify-center mb-4">
+              <img
+                src="https://img.icons8.com/color/96/physics.png"
+                alt="Physics Icon"
+                class="w-16 h-16"
+              />
+            </div>
+            <h3 class="text-2xl font-bold text-green-600 mb-2">Physics</h3>
+            <p class="text-gray-700">
+              In-depth Physics classes for high school and entrance exams.
+            </p>
+          </div>
+          <!-- Chemistry -->
+          <div class="bg-red-100 p-6 rounded-lg shadow-lg max-w-sm">
+            <div class="flex justify-center mb-3 mt-2">
+              <i class="fas fa-flask text-red-600 text-5xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-red-600 mb-2">Chemistry</h3>
+            <p class="text-gray-700">
+              Comprehensive Chemistry lessons with practicals and exam
+              preparation.
+            </p>
+          </div>
+          <!-- Biology -->
+          <div class="bg-purple-100 p-6 rounded-lg shadow-lg max-w-sm">
+            <div class="flex justify-center mb-3 mt-2">
+              <i class="fas fa-leaf text-purple-600 text-5xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-purple-600 mb-2">Biology</h3>
+            <p class="text-gray-700">
+              Detailed Biology courses covering human anatomy, botany, and
+              zoology.
+            </p>
+          </div>
+          <!-- Bengali -->
+          <div class="bg-yellow-100 p-6 rounded-lg shadow-lg max-w-sm">
+            <div class="flex justify-center mb-3 mt-2">
+              <i class="fas fa-language text-yellow-600 text-5xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-yellow-600 mb-2">Bengali</h3>
+            <p class="text-gray-700">
+              In-depth Bengali language and literature courses for all levels.
+            </p>
+          </div>
+          <!-- English -->
+          <div class="bg-indigo-100 p-6 rounded-lg shadow-lg max-w-sm">
+            <div class="flex justify-center mb-3 mt-2">
+              <i class="fas fa-book text-indigo-600 text-5xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-indigo-600 mb-2">English</h3>
+            <p class="text-gray-700">
+              Comprehensive English language and literature classes, including
+              grammar and composition.
+            </p>
+          </div>
+          <!-- Computer Science -->
+          <div class="bg-blue-100 p-6 rounded-lg shadow-lg max-w-sm">
+            <div class="flex justify-center mb-3 mt-2">
+              <i class="fas fa-laptop-code text-blue-600 text-5xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-blue-600 mb-2">
+              Computer Science
+            </h3>
+            <p class="text-gray-700">
+              Courses in Computer Science covering programming, algorithms, and
+              data structures.
+            </p>
+          </div>
+
+          <!-- Computer Application -->
+          <div class="bg-green-100 p-6 rounded-lg shadow-lg max-w-sm">
+            <div class="flex justify-center mb-3 mt-2">
+              <i class="fas fa-desktop text-green-600 text-5xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-green-600 mb-2">
+              Computer Application
+            </h3>
+            <p class="text-gray-700">
+              Training in software applications, including office suites, web
+              development, and databases.
+            </p>
+          </div>
+
+          <!-- Sanskrit -->
+          <div class="bg-yellow-100 p-6 rounded-lg shadow-lg max-w-sm">
+            <div class="flex justify-center mb-3 mt-2">
+              <i class="fas fa-scroll text-yellow-600 text-5xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-yellow-600 mb-2">Sanskrit</h3>
+            <p class="text-gray-700">
+              Learn the ancient language of Sanskrit, including grammar and
+              classical texts.
+            </p>
+          </div>
+
+          <!-- Accountancy -->
+          <div class="bg-pink-100 p-6 rounded-lg shadow-lg max-w-sm">
+            <div class="flex justify-center mb-4">
+              <img
+                src="https://img.icons8.com/color/96/accounting.png"
+                alt="Accountancy Icon"
+                class="w-16 h-16"
+              />
+            </div>
+            <h3 class="text-2xl font-bold text-pink-600 mb-2">Accountancy</h3>
+            <p class="text-gray-700">
+              Accountancy classes covering financial accounting, management
+              accounting, and more.
+            </p>
+          </div>
+          <!-- Economics -->
+          <div class="bg-gray-100 p-6 rounded-lg shadow-lg max-w-sm">
+            <div class="flex justify-center mb-3 mt-2">
+              <i class="fas fa-chart-line text-gray-600 text-5xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-600 mb-2">Economics</h3>
+            <p class="text-gray-700">
+              Comprehensive courses in Economics, including microeconomics,
+              macroeconomics, and statistics.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Preparation Guide Section -->
+    <section id="preparation-guide" class="bg-gray-100 py-16">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold text-blue-800 mb-8">Preparation Guide</h2>
+        <div class="flex flex-wrap justify-center gap-8">
+          <!-- NEET-UG Card -->
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full md:w-1/3"
+          >
+            <div class="flex justify-center mb-4">
+              <i
+                class="fas fa-stethoscope text-blue-600 text-5xl mt-2 mb-3"
+              ></i>
+            </div>
+            <h3 class="text-2xl font-bold text-blue-600 mb-2">NEET-UG</h3>
+            <p class="text-gray-700 mb-4">
+              Our NEET-UG preparation guide offers comprehensive resources,
+              practice tests, and expert tips to help you excel in your medical
+              entrance exams.
+            </p>
+            <a
+              href="#"
+              class="bg-blue-600 text-white px-4 py-2 rounded shadow hover:bg-blue-700"
+              >Learn More</a
+            >
+          </div>
+          <!-- JEE Card -->
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full md:w-1/3"
+          >
+            <div class="flex justify-center mb-4">
+              <img
+                src="https://img.icons8.com/color/96/engineering.png"
+                alt="JEE Icon"
+                class="w-16 h-16"
+              />
+            </div>
+            <h3 class="text-2xl font-bold text-blue-600 mb-2">JEE</h3>
+            <p class="text-gray-700 mb-4">
+              Prepare for JEE with our detailed study materials, practice
+              papers, and expert advice to achieve top scores in the engineering
+              entrance exams.
+            </p>
+            <a
+              href="#"
+              class="bg-blue-600 text-white px-4 py-2 rounded shadow hover:bg-blue-700"
+              >Learn More</a
+            >
+          </div>
+          <!-- JENPAH Card -->
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full md:w-1/3"
+          >
+            <div class="flex justify-center mb-4">
+              <i
+                class="fas fa-book-reader text-blue-600 text-5xl mt-2 mb-3"
+              ></i>
+            </div>
+            <h3 class="text-2xl font-bold text-blue-600 mb-2">JENPAH</h3>
+            <p class="text-gray-700 mb-4">
+              Explore our JENPAH preparation resources including mock tests,
+              study guides, and strategies to help you ace the entrance exams
+              for medical and allied courses.
+            </p>
+            <a
+              href="#"
+              class="bg-blue-600 text-white px-4 py-2 rounded shadow hover:bg-blue-700"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact" class="bg-gray-200 py-16">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold text-blue-800 mb-8">Contact Us</h2>
+        <p class="text-lg text-gray-700">
+          For admissions and inquiries, reach out to us at:
+        </p>
+        <p class="text-lg font-semibold text-blue-600 mt-4">Soumik Ghosh</p>
+        <p class="text-lg text-gray-700">
+          Phone:
+          <a class="text-blue-600" href="tel:+918388960359">8388960359</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+      <div class="container mx-auto text-center">
+        <!-- Logo and Company Name -->
+        <div class="flex flex-col items-center mb-6">
+          <img
+            src="./images/logo.jpg"
+            alt="Bright Future Institute Logo"
+            class="w-20 h-20 rounded-full mb-2"
+          />
+          <h2 class="text-xl font-bold">Bright Future Institute</h2>
+        </div>
+
+        <!-- Social Media Icons -->
+        <div class="flex justify-center space-x-6 mb-4">
+          <a href="#" class="hover:text-yellow-300">
+            <img
+              src="https://img.icons8.com/color/48/facebook-new.png"
+              alt="Facebook"
+            />
+          </a>
+          <a href="#" class="hover:text-yellow-300">
+            <img
+              src="https://img.icons8.com/color/48/instagram-new.png"
+              alt="Instagram"
+            />
+          </a>
+          <a href="#" class="hover:text-yellow-300">
+            <img
+              src="https://img.icons8.com/color/48/twitter.png"
+              alt="Twitter"
+            />
+          </a>
+        </div>
+
+        <!-- Copyright Notice -->
+        <p class="text-sm">
+          © 2024 Bright Future Institute. All Rights Reserved. | Developed by
+          Sombhu Das
+        </p>
+      </div>
+    </footer>
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+      const menuBtn = document.getElementById("menu-btn");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      menuBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
