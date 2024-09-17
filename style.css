@@ -16,3 +16,19 @@
 ::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(180deg, #1d4ed8, #3490dc); /* Gradient on hover */
 }
+
+.animate-marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: marquee 15s linear infinite;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
